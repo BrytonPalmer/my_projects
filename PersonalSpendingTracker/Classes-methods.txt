@@ -1,0 +1,84 @@
+For my personal spending tracker I want to be able to track: 
+    
+    
+    Goals
+        CreateGoal() - Create a new goal for any area of the app
+        SaveGoal()
+        LoadGoal()
+        CompareGoals() - takes the goal and compares it to CurrentAssets and CurrentDebt to show difference
+        LoadAllAccounts()
+        SaveAllAccounts()
+
+
+
+    Debt    
+        CurrentDebt
+            ///takes new debt and adds it to CurrentDebt. Also can reduce debt by PayDebt///
+            LoadCurrentDebt()
+            RecordDebt() "Creating a new account for debt"
+            PayDebt()
+            SaveAllAccounts()
+            LoadAllAccounts() - quick menu from any area to see all accounts
+
+        Loans
+            ///tracks loans and interest///
+            RecordLoan()
+            PayDebt()
+            SaveAllAccounts()
+            LoadAllAccounts()
+
+        Spending
+            ///all different types of spending///
+            DebitSpending
+                DebitPurchase()
+            CreditSpending
+                CreditPurchase()
+            HealthSpending
+                HealthPurchase()
+            SavingsSpending
+                SavingsPurchase()
+
+            LoadAllAccounts()
+            SaveAllAccounts()
+            LoadPurchaseHistory()
+            SavePurchaseHistory()
+
+        CreateGoal() - Create a new goal for any area of the app
+        SaveGoal()
+        LoadGoal()
+
+
+
+    Assets
+        ///CurrentAssets Cash accounts and Savings accounts///
+            LoadCurrentAssets()
+            RecordAssets()
+            SaveAllAccounts()
+            LoadAllAccounts()
+
+        Cash
+            CurrentCash
+                RecordCash()
+                SaveAllAccounts()
+                LoadAllAccounts()
+
+        Savings
+            CurrentSavings
+                RecordSavings()
+                SaveAllAccounts()
+                LoadAllAccounts()
+
+        Investments
+            CurrentInvestments
+                RecordInvestment()
+                SaveAllAccounts()
+                LoadAllAccounts()
+
+        CreateGoal() - Create a new goal for any area of the app
+        SaveGoal()
+        LoadGoal()
+
+    Income
+        ///takes income data and projects potential savings and budgeting strategies///
+        RecordIncome()
+        
